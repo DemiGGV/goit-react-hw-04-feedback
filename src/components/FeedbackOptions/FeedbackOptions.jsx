@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { ContainerCSS, Button } from '../MainContainer';
 
 export function FeedbackOptions({ options, incrementField }) {
+  console.log(options);
   return (
     <ContainerCSS>
       {Object.keys(options).map((option, index) => (
